@@ -33,6 +33,7 @@ export default function Game() {
   });
   
   return (
+<<<<<<< HEAD
     <App1/>
     // <div className="game">
     //   <div className="game-board">
@@ -42,6 +43,17 @@ export default function Game() {
     //     <ol>{moves}</ol>
     //   </div>
     // </div>
+=======
+    // <App1/>
+    <div className="game">
+      <div className="game-board">
+        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
+      </div>
+      <div className="game-info">
+        <ol>{moves}</ol>
+      </div>
+    </div>
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
   );
 };
 

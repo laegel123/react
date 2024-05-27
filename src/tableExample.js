@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 
+=======
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
 function ProductCategoryRow({category}) {
     return (
         <tr>
@@ -24,11 +27,16 @@ function ProductRow({product}) {
     );
 }
 
+<<<<<<< HEAD
 function ProductTable({products, filterText, isStockOnly}) {
+=======
+function ProductTable({products}) {
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
     const rows = [];
     let lastCategory = null;
 
     products.forEach(product => {
+<<<<<<< HEAD
         if (product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) {
             return;
         }
@@ -38,6 +46,8 @@ function ProductTable({products, filterText, isStockOnly}) {
         }
 
 
+=======
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
         if (product.category !== lastCategory) {
             rows.push(
               <ProductCategoryRow
@@ -69,6 +79,7 @@ function ProductTable({products, filterText, isStockOnly}) {
     );
 }
 
+<<<<<<< HEAD
 function SearchBar({
   filterText,
   inStockOnly,
@@ -110,6 +121,28 @@ function FilterableProductTable({ products }) {
         inStockOnly={inStockOnly} />
     </div>
   );
+=======
+function SearchBar() {
+    return (
+        <form>
+            <input type="text" placeholder="Search..."/>
+            <label>
+                <input type="checkbox"/>
+                {' '}
+                Only Show products in stock
+            </label>
+        </form>
+    );
+}
+
+function FilterableProductTable({products}) {
+    return (
+        <div>
+            <SearchBar/>
+            <ProductTable products={products}/>
+        </div>
+    );
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
 }
 
 const PRODUCTS = [
