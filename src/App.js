@@ -1,4 +1,5 @@
 import {useState} from "react";
+import App1 from "./tableExample";
 
 
 export default function Game() {
@@ -32,6 +33,7 @@ export default function Game() {
   });
   
   return (
+    // <App1/>
     <div className="game">
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
