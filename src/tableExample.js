@@ -119,7 +119,7 @@ function FilterableProductTable({products}) {
             <ProductTable products={products}/>
         </div>
     );
-
+>>>>>>> 4845942fdcc7c1e20b6bd71269b944870e145803
 }
 
 const PRODUCTS = [
