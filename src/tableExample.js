@@ -37,7 +37,6 @@ function ProductTable({products, filterText, isStockOnly}) {
             return;
         }
 
-
         if (product.category !== lastCategory) {
             rows.push(
               <ProductCategoryRow
@@ -68,6 +67,7 @@ function ProductTable({products, filterText, isStockOnly}) {
         </table>
     );
 }
+
 
 function SearchBar({
   filterText,
