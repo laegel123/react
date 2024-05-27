@@ -112,6 +112,16 @@ function FilterableProductTable({ products }) {
   );
 }
 
+function FilterableProductTable({products}) {
+    return (
+        <div>
+            <SearchBar/>
+            <ProductTable products={products}/>
+        </div>
+    );
+
+}
+
 const PRODUCTS = [
     {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
     {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
