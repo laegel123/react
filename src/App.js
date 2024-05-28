@@ -1,5 +1,13 @@
 import {useState} from "react";
 import App1 from "./tableExample";
+import App2 from "./interactionExample";
+import App3 from "./sample/interactions/Example";
+import App4 from "./sample/interactions/Example3";
+import App5 from "./sample/interactions/Example4";
+import App6 from "./sample/interactions/Example5";
+import App7 from "./sample/interactions/Example6";
+
+import App8 from "./sample/events/example";
 
 
 export default function Game() {
@@ -33,7 +41,14 @@ export default function Game() {
   });
   
   return (
-    <App1/>
+    //<App1/>
+    //<App2/>
+    //<App3/>
+    //<App4/>
+    //<App5/>
+    //<App6/>
+    //<App7/>
+    <App8/>
     // <div className="game">
     //   <div className="game-board">
     //     <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
