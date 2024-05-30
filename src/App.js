@@ -8,6 +8,10 @@ import App6 from "./sample/interactions/Example5";
 import App7 from "./sample/interactions/Example6";
 
 import App8 from "./sample/events/example";
+import App9 from "./sample/events/example2";
+import App10 from "./sample/events/example3";
+import App11 from "./sample/events/example4";
+import App12 from "./sample/events/example7";
 
 
 export default function Game() {
@@ -48,7 +52,11 @@ export default function Game() {
     //<App5/>
     //<App6/>
     //<App7/>
-    <App8/>
+    //<App8/>
+    //<App9/>
+    //<App10/>
+    //<App11/>
+    <App12/>
     // <div className="game">
     //   <div className="game-board">
     //     <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
