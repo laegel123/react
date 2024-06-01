@@ -11,7 +11,7 @@ import App8 from "./sample/events/example";
 import App9 from "./sample/events/example2";
 import App10 from "./sample/events/example3";
 import App11 from "./sample/events/example4";
-import App12 from "./sample/statePractice/example1";
+import App12 from "./sample/arrayUpdate/example3";
 
 
 export default function Game() {
