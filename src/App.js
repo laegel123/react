@@ -1,17 +1,7 @@
 import {useState} from "react";
 import App1 from "./tableExample";
 import App2 from "./interactionExample";
-import App3 from "./sample/interactions/Example";
-import App4 from "./sample/interactions/Example3";
-import App5 from "./sample/interactions/Example4";
-import App6 from "./sample/interactions/Example5";
-import App7 from "./sample/interactions/Example6";
-
-import App8 from "./sample/events/example";
-import App9 from "./sample/events/example2";
-import App10 from "./sample/events/example3";
-import App11 from "./sample/events/example4";
-import App12 from "./sample/arrayUpdate/example3";
+import App3 from "./sample/deep/example"
 
 
 export default function Game() {
@@ -47,16 +37,7 @@ export default function Game() {
   return (
     //<App1/>
     //<App2/>
-    //<App3/>
-    //<App4/>
-    //<App5/>
-    //<App6/>
-    //<App7/>
-    //<App8/>
-    //<App9/>
-    //<App10/>
-    //<App11/>
-    <App12/>
+    <App3/>
     // <div className="game">
     //   <div className="game-board">
     //     <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
